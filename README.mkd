@@ -30,7 +30,7 @@ If you use [neobundle.vim](http://github.com/Shougo/neobundle.vim), you can
 update and build vimproc automatically. This is the recomended package manager.
 
 ```vim
-NeoBundle 'Shougo/vimproc', {
+NeoBundle 'Shougo/vimproc.vim', {
       \ 'build' : {
       \     'windows' : 'make -f make_mingw32.mak',
       \     'cygwin' : 'make -f make_cygwin.mak',
